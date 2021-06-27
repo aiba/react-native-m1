@@ -27,7 +27,7 @@ $ open ios/MyApp.xcworkspace
 
 ![](ios-deploy-target.png)
 
-MyApp -> Build Settings -> Architectures -> Excluded Architectures: set to arm64
+### MyApp -> Build Settings -> Architectures -> Excluded Architectures: set to arm64
 
 ![](excluded.png)
 
