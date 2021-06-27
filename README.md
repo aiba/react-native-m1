@@ -23,7 +23,7 @@ $ open ios/MyApp.xcworkspace
 
 (Make sure to be working in the `.xcworkspace` not the `.xcodeproj`)
 
-MyApp -> Info -> iOS Deployment Target: set to 12.1
+### MyApp -> Info -> iOS Deployment Target: set to 12.1
 
 ![](ios-deploy-target.png)
 
@@ -31,13 +31,13 @@ MyApp -> Build Settings -> Architectures -> Excluded Architectures: set to arm64
 
 ![](excluded.png)
 
-MyApp -> Build Settings -> Library Search Paths: remove all of them.
+### MyApp -> Build Settings -> Library Search Paths: remove all of them.
 
 Should look like this when you're done:
 
 ![](libsearch.png)
 
-Next create an empty "BridgingFile.swift" to get XCode to do swift bridging.
+### Next create an empty "BridgingFile.swift" to get XCode to do swift bridging.
 
 * File -> New -> File...
 * Call it "BridgingFile.swift"
