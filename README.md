@@ -29,13 +29,13 @@ $ open ios/MyApp.xcworkspace
 
 ### MyApp -> Build Settings -> Architectures -> Excluded Architectures: set to arm64
 
-![](excluded.png)
+<kbd>![](excluded.png)
 
 ### MyApp -> Build Settings -> Library Search Paths: remove all of them.
 
 Should look like this when you're done:
 
-![](libsearch.png)
+<kbd>![](libsearch.png)
 
 ### Next create an empty "BridgingFile.swift" to get XCode to do swift bridging.
 
@@ -44,7 +44,7 @@ Should look like this when you're done:
 * Choose "Create Bridging Header"
 * (File can remain empty)
 
-![](bridgingfile.png)
+<kbd>![](bridgingfile.png)
 
 ## Now edit MyApp/ios/Podfile
 
