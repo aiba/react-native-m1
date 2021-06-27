@@ -1,5 +1,5 @@
 
-# react-native 0.64.2 with Apple M1 & XCode 12.5
+# react-native 0.64.2 with Apple M1 and xcode 12.5
 
 This is how I got react-native to compile on Apple Silicon without rosetta.
 
