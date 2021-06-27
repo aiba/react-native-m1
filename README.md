@@ -25,7 +25,7 @@ $ open ios/MyApp.xcworkspace
 
 ### MyApp -> Info -> iOS Deployment Target: set to 12.1
 
-![](ios-deploy-target.png)
+<kbd>![](ios-deploy-target.png)
 
 ### MyApp -> Build Settings -> Architectures -> Excluded Architectures: set to arm64
 
